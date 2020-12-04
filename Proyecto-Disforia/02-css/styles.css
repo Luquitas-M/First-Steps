@@ -1,0 +1,203 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* Reset para REMS - 62.5% =10px de 16px */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*font-family cambia toda la tipografia del codigo*/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Globale */
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.contenedor h1 {
+    margin-left: -12rem;
+    color: white;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.contenedor h2 {
+    text-transform: uppercase;
+}
+
+/* Utilidades */
+
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+/* Header */
+
+.site-header.inicio {
+    background: url(../02-img/Group8.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+
+.contenido-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-header h1 {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.contenido-header h1:last-of-type {
+    padding-top: 45rem;
+    max-width: 35rem;
+    line-height: 4rem;
+}
+
+.barra nav {
+    margin-left: auto;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 2rem;
+}
+
+.barra img {
+    margin-left: -20rem;
+}
+
+.barra a:first-of-type {
+    min-height: auto;
+    margin-left: 7rem;
+}
+
+/* Navegacion */
+
+.navegacion a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right: 3rem;
+    font-weight: 700;
+}
+
+.navegacion a:hover {
+    color: red;
+}
+
+/* Iconos Nosotros */
+
+.titulo {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.iconos-nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.integrante {
+    flex-basis: 23rem;
+    text-align: center;
+    border-style: solid;
+    border-color: #B5B5B5;
+    border-width: 1px;
+    margin: 0 auto 0 auto;
+}
+
+.integrante img {
+    max-width: 100%;
+}
+
+.integrante p, .integrante h3 {
+    padding: 2rem;
+    margin: 0;
+}
+
+.iconos-nosotros h3 {
+    text-transform: uppercase;
+    color: red;
+}
+
+/*historia de la banda */
+
+.fondo-historia {
+    background-color: black;
+    background-position: center center;
+    background-size: cover;
+    padding-top: auto;
+    padding-bottom: 1rem;
+}
+
+/* Parrafos */
+
+.parrafos {
+    color: #ffffff;
+    text-align: center;
+}
+
+.parrafos p {
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+/* Discografia */
+
+.discos img {
+    max-width: 20rem;
+}
+
+/** Footer **/
+
+.fondo-footer {
+    background-color: black;
+    color: white;
+    
+}
+
+.fondo-footer .texto-footer a{
+    color: white;
+}
